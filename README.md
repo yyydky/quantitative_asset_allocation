@@ -7,7 +7,7 @@ The Python script, main.py, simulates the portfolio construction and management 
 
 Four investment time horizons are considered: 1 year, 3 years, 5 years, and 10 years. The ending date for all periods is 2020-12-30. <br />
 
-After analysing the daily record generated, one portfolio strategy would be recommended for each time horizon. <br />
+After analysing the daily records generated, one portfolio strategy would be recommended for each time horizon. <br />
 
 ## Analysis:
 
@@ -86,8 +86,8 @@ The main.py is used to create daily portfolio balance records and the final anal
 The implementation and calculation details can be found in the main.py as comments. 
 
 ## Environment:
-Python 3.8.2
-Please check requirements.txt to install the libraries needed. 
+Python 3.8.2 <br />
+Please check requirements.txt to install the libraries needed. <br />
 (Command: pip install -r /path/to/requirements.txt)
 
 

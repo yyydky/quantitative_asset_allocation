@@ -3,7 +3,7 @@ Asset Allocation Simulation with AGG &amp; VTI
 
 ## Goal:
 
-The Python script, main.py, simulates the porfolio construction and management process with the given weights for two ETFs, AGG and VTI using historical price data from Yahoo Finance. <br />
+The Python script, main.py, simulates the portfolio construction and management process with the given weights for two ETFs, AGG and VTI using historical price data from Yahoo Finance. <br />
 
 Four investment time horizons are considered: 1 year, 3 years, 5 years, and 10 years. The ending date for all periods is 2020-12-30. <br />
 
@@ -27,7 +27,7 @@ After analysing the daily record generated, one portfolio strategy would be reco
 * 1-year return: (AGG, 7.43%), (VTI, 18.88%), (SPY, 18.4%)
 * Strategy naming: for example, 0.1_AGG_0.9_VTI_1y is the portfolio that holds 10% AGG and 90% VIT for 1 year.
 * Recommend 0.8_AGG_0.2_VTI_1y: <br />
-The combination has the highest sharpe ratio and the second best VaR.
+The combination has the highest Sharpe ratio and the second best VaR.
 
 **Three years:**
 | strategy           | rebalancing count | annual return | annual std dev | sharpe ratio | VaR    |
@@ -44,7 +44,7 @@ The combination has the highest sharpe ratio and the second best VaR.
 
 * 3-year return: (AGG, 5.28%), (VTI, 12.4%), (SPY, 14%)
 * Recommend 0.8_AGG_0.2_VTI_3y:  <br />
-The combination has the highest sharpe ratio and the second best VaR. 
+The combination has the highest Sharpe ratio and the second best VaR. 
 
 **Five years:**
 | strategy           | rebalancing count | annual return | annual std dev | sharpe ratio | VaR    |
@@ -61,7 +61,7 @@ The combination has the highest sharpe ratio and the second best VaR.
 
 * 5-year return: (AGG, 4.38%), (VTI, 13.28%), (SPY, 16.71%)
 * Recommend 0.8_AGG_0.2_VTI_5y:  <br />
-The combination has the highest sharpe ratio and the second best VaR. 
+The combination has the highest Sharpe ratio and the second best VaR. 
 
 **Ten years:**
 | strategy            | rebalancing count | annual return | annual std dev | sharpe ratio | VaR    |
@@ -78,7 +78,7 @@ The combination has the highest sharpe ratio and the second best VaR.
 
 * 10-year return: (AGG, 3.76%), (VTI, 11.61%), (SPY, 13.31%)
 * Recommend 0.7_AGG_0.3_VTI_10y:  <br />
-The combination has the highest sharpe ratio and the third best VaR. 
+The combination has the highest Sharpe ratio and the third best VaR. 
 
 ## Usage:
 The historical price data generation code for ETFs is in data.py, and the reformatted data is saved in price.csv. The main.py imports data from price.csv. <br />

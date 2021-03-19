@@ -81,9 +81,9 @@ The combination has the highest sharpe ratio and the second best VaR.
 The combination has the highest sharpe ratio and the third best VaR. 
 
 ## Usage:
-The historical price data generation code for ETFs is in data.py, and reformatted data is saved in price.csv. main.py imports data from price.csv. <br />
-main.py is responsible for creating daily portfolio balance record and the final analysis calculation.
-The implementation and calculation details can be found in main.py as comments. 
+The historical price data generation code for ETFs is in data.py, and the reformatted data is saved in price.csv. The main.py imports data from price.csv. <br />
+The main.py is used to create daily portfolio balance record and the final analysis.
+The implementation and calculation details can be found in the main.py as comments. 
 
 ## Environment:
 Python 3.8.2

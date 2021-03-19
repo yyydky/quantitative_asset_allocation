@@ -60,7 +60,7 @@ The combination has the highest sharpe ratio and the second best VaR.
 | 0.9_AGG_0.1_VTI_5y | 1                 | 5.73%         | 4.72%          | 0.7896       | -0.30% |
 
 * 5-year return: (AGG, 4.38%), (VTI, 13.28%), (SPY, 16.71%)
-* Recommend 0.8_AGG_0.2_VTI_3y:  <br />
+* Recommend 0.8_AGG_0.2_VTI_5y:  <br />
 The combination has the highest sharpe ratio and the second best VaR. 
 
 **Ten years:**

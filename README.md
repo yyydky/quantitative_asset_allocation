@@ -24,7 +24,7 @@ After analysing the daily record generated, one portfolio strategy would be reco
 | 0.8_AGG_0.2_VTI_1y | 2                 | 11.99%        | 10.32%         | 0.9676       | -0.64% |
 | 0.9_AGG_0.1_VTI_1y | 0                 | 8.37%         | 8.64%          | 0.7377       | -0.40% |
 
-* 1-year return: (AGG, 7.43%), (VTI, 18.88%), (SPY, 18.4%)
+* SP 500 1-year annual return (from Yahoo Finance Website): 18.4%
 * Strategy naming: for example, 0.1_AGG_0.9_VTI_1y is the portfolio that holds 10% AGG and 90% VIT for 1 year.
 * Recommend 0.8_AGG_0.2_VTI_1y: <br />
 The combination has the highest Sharpe ratio and the second-best VaR.
@@ -42,7 +42,7 @@ The combination has the highest Sharpe ratio and the second-best VaR.
 | 0.8_AGG_0.2_VTI_3y | 0                 | 7.24%         | 6.49%          | 0.8076       | -0.41% |
 | 0.9_AGG_0.1_VTI_3y | 0                 | 6.33%         | 5.51%          | 0.7859       | -0.31% |
 
-* 3-year return: (AGG, 5.28%), (VTI, 12.4%), (SPY, 14%)
+* SP 500 3-year annual return (from Yahoo Finance Website): 14.00%
 * Recommend 0.8_AGG_0.2_VTI_3y:  <br />
 The combination has the highest Sharpe ratio and the second-best VaR. 
 
@@ -59,7 +59,7 @@ The combination has the highest Sharpe ratio and the second-best VaR.
 | 0.8_AGG_0.2_VTI_5y | 1                 | 6.82%         | 5.31%          | 0.9067       | -0.36% |
 | 0.9_AGG_0.1_VTI_5y | 1                 | 5.73%         | 4.72%          | 0.7896       | -0.30% |
 
-* 5-year return: (AGG, 4.38%), (VTI, 13.28%), (SPY, 16.71%)
+* SP 500 5-year annual return (from Yahoo Finance Website): 16.71%
 * Recommend 0.8_AGG_0.2_VTI_5y:  <br />
 The combination has the highest Sharpe ratio and the second-best VaR. 
 
@@ -76,7 +76,7 @@ The combination has the highest Sharpe ratio and the second-best VaR.
 | 0.8_AGG_0.2_VTI_10y | 3                 | 5.90%         | 4.60%          | 0.8483       | -0.35% |
 | 0.9_AGG_0.1_VTI_10y | 1                 | 4.94%         | 3.92%          | 0.7492       | -0.30% |
 
-* 10-year return: (AGG, 3.76%), (VTI, 11.61%), (SPY, 13.31%)
+* SP 500 10-year annual return (from Yahoo Finance Website): 13.31%
 * Recommend 0.7_AGG_0.3_VTI_10y:  <br />
 The combination has the highest Sharpe ratio and the third-best VaR. 
 

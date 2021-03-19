@@ -25,7 +25,7 @@ After analysing the daily records generated, one portfolio strategy would be rec
 | 0.9_AGG_0.1_VTI_1y | 0                 | 8.37%         | 8.64%          | 0.7377       | -0.40% |
 
 * SP 500 1-year annual return (from Yahoo Finance Website): 18.4%
-* Strategy naming: for example, 0.1_AGG_0.9_VTI_1y is the portfolio that holds 10% AGG and 90% VIT for 1 year.
+* Strategy naming: for example, 0.1_AGG_0.9_VTI_1y is the portfolio that holds 10% AGG and 90% VTI for 1 year.
 * Recommend 0.8_AGG_0.2_VTI_1y: <br />
 The combination has the highest Sharpe ratio and the second-best VaR.
 

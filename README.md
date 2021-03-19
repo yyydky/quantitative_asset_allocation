@@ -3,7 +3,7 @@ Asset Allocation Simulation with AGG &amp; VTI
 
 ## Goal:
 
-The Python script, main.py, simulates the portfolio construction and management process with the given weights for two ETFs, AGG and VTI using historical price data from Yahoo Finance. <br />
+The Python script, main.py, simulates the portfolio construction and management process with the given weights for two ETFs, AGG and VTI, using historical price data from Yahoo Finance. <br />
 
 Four investment time horizons are considered: 1 year, 3 years, 5 years, and 10 years. The ending date for all periods is 2020-12-30. <br />
 

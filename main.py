@@ -25,7 +25,7 @@ class portfolio:
         self.rebalancing_count = 0
         self.daily_balance_header = ['date', 'total', 'AGG_price', 'VTI_price',
                                      'AGG_shares', 'VTI_shares', 'AGG_pct', 'VTI_pct',
-                                     'AGG_chg', 'VTI_chg', 'cash', "rebalance"]
+                                     'AGG_chg', 'VTI_chg', 'cash', 'rebalance']
         self.daily_balance = [self.daily_balance_header]
         self.period = period
 
@@ -123,12 +123,12 @@ class portfolio:
         sorted_return = df['pct_chg'].sort_values(ascending=True)
         var = sorted_return.quantile(q=alpha, interpolation='higher')
 
-        # daily return => annual return
+        # daily return => annual return; considering the return size, exclude MER for now
         df['pct_chg'] = df['pct_chg'].apply(lambda a: a + 1)
         annualized_compound_daily_return = pow(df['pct_chg'].product(), (1 / len(df['pct_chg']))) - 1
         annual_return = pow((1 + annualized_compound_daily_return), 252) - 1
 
-        # sharpe ratio， risk free: 2%
+        # sharpe ratio， risk free rate: 2%
         sharpe = (annual_return - 0.02) / annualized_std
 
         # row name
@@ -179,7 +179,7 @@ if __name__ == "__main__":
             for portfolio in lst_portfolio:
                 portfolio.daily_record(row)
 
-        # manually verify calculation and data
+        # to manually verify calculation and data
         for portfolio in lst_portfolio:
             # portfolio.export_record()
             final_result_table.append(portfolio.conclusion())
